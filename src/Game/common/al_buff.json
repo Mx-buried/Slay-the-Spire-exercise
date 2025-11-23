@@ -1,0 +1,81 @@
+{
+    "0": {
+        "name": "无"
+    },
+    "1": {
+        "name": "易伤",
+        "on_attacked": true,
+        "on_attacked_effect": [
+            2,
+            0.5
+        ]
+    },
+    "2": {
+        "name": "力量",
+        "negative": true,
+        "on_attack": true,
+        "on_attack_effect": [
+            1,
+            null
+        ]
+    },
+    "3": {
+        "name": "虚弱",
+        "on_attack": true,
+        "on_attack_effect": [
+            2,
+            -0.25
+        ]
+    },
+    "4": {
+        "name": "敏捷",
+        "negative": true,
+        "on_block": true,
+        "on_block_effect": [
+            1,
+            null
+        ]
+    },
+    "5": {
+        "name": "能量提升",
+        "is_drop_buff_count": true,
+        "drop_buff_count": null,
+        "on_turn_start": true,
+        "on_turn_start_effect": [
+            3,
+            null
+        ]
+    },
+    "6": {
+        "name": "中毒",
+        "is_drop_buff_count": true,
+        "drop_buff_count": 1,
+        "on_turn_end": true,
+        "on_turn_end_effect": [
+            1,
+            -1
+        ]
+    },
+    "1001": {
+        "name": "仪式",
+        "on_turn_end": true,
+        "on_turn_end_effect": [
+            5,
+            2,
+            null,
+            true,
+            false
+        ]
+    },
+    "1002": {
+        "name": "激怒",
+        "on_card_play": true,
+        "on_card_play_effect": [
+            5,
+            2,
+            1,
+            true,
+            false
+        ]
+    }
+}

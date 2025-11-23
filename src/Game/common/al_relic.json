@@ -1,0 +1,47 @@
+{
+    "0": {
+        "name": "无"
+    },
+    "2": {
+        "name": "蛇之戒指",
+        "on_battle_start": true,
+        "on_battle_start_effect": [
+            1,
+            2
+        ]
+    },
+    "5": {
+        "name": "涅奥的悲恸",
+        "relic_count": 3,
+        "is_count": true,
+        "on_battle_start": true,
+        "on_battle_start_effect": [
+            99,
+            [
+                [
+                    3,
+                    1,
+                    -0.9999
+                ],
+                [
+                    4
+                ]
+            ]
+        ],
+        "on_counter_full": true,
+        "on_counter_full_count": [
+            0,
+            3,
+            -1
+        ],
+        "on_counter_full_effect": [
+            5,
+            {
+                "on_battle_start": false,
+                "on_battle_start_effect": [
+                    0
+                ]
+            }
+        ]
+    }
+}

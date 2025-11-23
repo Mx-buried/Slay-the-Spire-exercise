@@ -1,0 +1,50 @@
+{
+    "1": {
+        "dialogue_name": "涅奥的祝福",
+        "dialogue_list": [
+            {
+                "question": "「 你好……\n又见面了……」",
+                "options": [
+                    "[对话]"
+                ],
+                "trigger": {
+                    "1": [
+                        0
+                    ]
+                }
+            },
+            {
+                "question": "「 选择… 」",
+                "options": [
+                    "最大生命值+$",
+                    "获得遗物:涅奥的悲恸"
+                ],
+                "trigger": {
+                    "1": [
+                        1,
+                        null,
+                        {
+                            "The Silent": 6
+                        }
+                    ],
+                    "2": [
+                        3,
+                        5
+                    ]
+                }
+            },
+            {
+                "question": "「 实现了… 」",
+                "options": [
+                    "[离开]"
+                ],
+                "trigger": {
+                    "1": [
+                        0
+                    ]
+                }
+            }
+        ],
+        "dialogue_type" : 2
+    }
+}

@@ -1,0 +1,116 @@
+{
+    "2001": {
+        "name": "打击",
+        "description": "造成6点伤害",
+        "spend_energy": 1,
+        "type": 1,
+        "delete": false,
+        "can_play": true,
+        "effect_data": {
+            "is_aoe": false,
+            "damage": 6,
+            "trigger_count": 1,
+            "is_block": false,
+            "is_buff": false,
+            "buff": [
+                0
+            ]
+        }
+    },
+    "2002": {
+        "name": "中和",
+        "description": "造成3点伤害, 给予1层虚弱。",
+        "spend_energy": 0,
+        "type": 1,
+        "delete": false,
+        "can_play": true,
+        "effect_data": {
+            "is_aoe": false,
+            "damage": 3,
+            "trigger_count": 1,
+            "is_block": false,
+            "is_buff": true,
+            "buff": [
+                1,
+                [
+                    3,
+                    1,
+                    false
+                ]
+            ]
+        }
+    },
+    "2003": {
+        "name": "飞膝",
+        "description": "造成8点伤害, 在下一回合获得能量*1。",
+        "spend_energy": 1,
+        "type": 1,
+        "delete": false,
+        "can_play": true,
+        "effect_data": {
+            "is_aoe": false,
+            "damage": 8,
+            "trigger_count": 1,
+            "is_block": false,
+            "is_buff": true,
+            "buff": [
+                1,
+                [
+                    5,
+                    1,
+                    true
+                ]
+            ]
+        }
+    },
+    "2004": {
+        "name": "灾祸",
+        "description": "造成7点伤害, 如果敌人有中毒状态, 则再次造成7点伤害。",
+        "spend_energy": 1,
+        "type": 1,
+        "delete": false,
+        "can_play": true,
+        "t_effect": true,
+        "t_effect_data": [
+            1,
+            [
+                6,
+                0
+            ]
+        ],
+        "effect_data": {
+            "is_aoe": false,
+            "damage": 8,
+            "trigger_count": 1,
+            "is_block": false,
+            "is_buff": true,
+            "buff": [
+                1,
+                [
+                    1,
+                    [
+                        5,
+                        1,
+                        true
+                    ]
+                ]
+            ]
+        }
+    },
+    "2202": {
+        "name": "防御",
+        "description": "获得5点格挡",
+        "spend_energy": 1,
+        "type": 2,
+        "delete": false,
+        "can_play": true,
+        "effect_data": {
+            "is_block": true,
+            "block": 5,
+            "is_buff": false,
+            "buff": [
+                0
+            ]
+        }
+    }
+}
